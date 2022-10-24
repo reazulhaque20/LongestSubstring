@@ -15,6 +15,9 @@ public class LongestSubstring {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String test = "abcabced";
+        Solution solution = new Solution();
+        System.out.println("Longest String Length: " + solution.lengthOfLongestSubstring(test));
     }
     
 }
